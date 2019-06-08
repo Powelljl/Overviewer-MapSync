@@ -1,0 +1,5 @@
+option batch abort
+option confirm off
+open ftp://admin.8:admin@94.130.203.99/
+synchronize local D:\Testing\world /world
+exit
